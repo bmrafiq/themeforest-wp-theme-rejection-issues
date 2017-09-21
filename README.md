@@ -101,6 +101,10 @@ For details - [https://github.com/grappler/wp-standard-handles](https://github.c
 
 
 
+## Please use '-' instead of '_' or '.' for handlers and remove the extension. 
+
+
+
 ## The theme should not be modifying the admin-bar styles:
 
 
@@ -199,3 +203,46 @@ This one is pretty straight-forward. If your theme contains commented out code o
 ## Post password:
 
 if a post is password protected, you should not display the comment section, or any other information that is related to that post, until the password was entered by the user. This also include the number of comments. Check out this function [post_password_required](https://codex.wordpress.org/Function_Reference/post_password_required)
+
+
+## How to test the blog/posts layout/functionality
+How to test the blog/posts layout/functionality - Import the Theme Unit Test [http://codex.wordpress.org/Theme_Unit_Test] file and make sure that:
+
+- Posts display correctly, with no apparent visual problems or errors.
+- Posts display in correct order.
+- Page navigation displays and works correctly.
+- As "sticky posts" are a core feature, the theme should style and display them appropriately.
+- Lack of body text should not adversely impact the layout.
+- Theme must incorporate both the "Tag" and the "Category" taxonomies in some manner.
+- Floats are cleared properly for floated element (thumbnail image) at the end of the post content.
+
+
+
+
+## Contrast:
+## Typo:
+## Pingbacks & trackbacks should display:
+## Language folder is empty:
+##  Remove developer notice:
+
+
+## All default widgets should display correctly:
+All default widgets should display correctly in all locations. You can use https://wordpress.org/plugins/monster-widget/ for testing this: http://envato.d.pr/MBc0nf
+
+
+
+## Themes execute the presentation:
+Themes execute the presentation and styling of content while plugins handle content creation and functionality. Anything users will lose upon switching themes is classified as plugin territory. Here are some common examples:
+
+- Analytics
+- SEO options
+- Forms
+- Non design related meta boxes
+- Resource caching
+- Dashboard widgets
+- Custom Post Types
+- Custom Taxonomies
+- Shortcodes
+- Social media “like”, “follow” and “share” buttons
+
+Anything that falls into plugin territory must be added via a custom plugin. You may use TGM Plugin Activation or equivalent to prompt the user to install the plugin on theme activation, but it cannot be activated without user action.
