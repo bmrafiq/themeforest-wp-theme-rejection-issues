@@ -14,7 +14,7 @@ While prefixing, please remember that refixes should consist of either your `the
 **_Example_**
 	
 ```php
-$themename_variable = "whatever";
+$themename_variable = "something";
 	
 function name themename_whatever(){
 	//your function body goes here
