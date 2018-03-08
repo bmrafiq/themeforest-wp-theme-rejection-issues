@@ -246,3 +246,10 @@ Themes execute the presentation and styling of content while plugins handle cont
 - Social media “like”, “follow” and “share” buttons
 
 Anything that falls into plugin territory must be added via a custom plugin. You may use TGM Plugin Activation or equivalent to prompt the user to install the plugin on theme activation, but it cannot be activated without user action.
+
+
+## The typographic hierarchy of this item requires additional work. For more information, please read:
+http://webdesign.tutsplus.com/articles/understanding-typographic-hierarchy--webdesign-11636
+Example(s): https://envato.d.pr/4E5uSc
+
+
