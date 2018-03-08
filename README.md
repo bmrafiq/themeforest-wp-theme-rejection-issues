@@ -1,7 +1,12 @@
 # All Rejection Issues of WordPress Theme in ThemeForest:
 
 ## Please use a unique theme name:
+We're now requiring unique, non-generic names with at least 3 characters for all new submissions. Additionally, authors should not use names that are already in use in the Marketplace. Search and make sure that chosen name does not exist: https://themeforest.net/
 
+Combination of keywords, Target-audience, categories, abbreviation and subjective word(s) are not allowed as item names. ( example: Magazine, XMagazine, MagazineX, etc.) 
+Author can always use the title description to further describe the item and list the keywords as tags.
+
+However, unique, single or combinations of common words are allowed ( no keywords ). Commonly used non-English words are fine as well.
 
 
 ## Theme preview image size:
