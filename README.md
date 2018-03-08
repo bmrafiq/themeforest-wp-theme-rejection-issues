@@ -250,6 +250,7 @@ Anything that falls into plugin territory must be added via a custom plugin. You
 
 ## The typographic hierarchy of this item requires additional work. For more information, please read:
 http://webdesign.tutsplus.com/articles/understanding-typographic-hierarchy--webdesign-11636
+
 Example(s): https://envato.d.pr/4E5uSc
 
 
